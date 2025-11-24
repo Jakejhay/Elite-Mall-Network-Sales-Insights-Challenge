@@ -62,6 +62,59 @@ The dataset includes **99,457 transactions** across 8 California malls from 2021
 - Price distribution validated against industry benchmarks
 
 ---
+## 🎯 Business Questions Solved
+
+This analysis addresses critical business challenges faced by Elite Mall Network:
+
+### 📊 Performance Measurement
+- **Which malls and product categories are driving revenue?**
+- **What are our monthly/quarterly sales trends?**
+- **How do holiday seasons impact our performance?**
+
+### 👥 Customer Understanding  
+- **Who are our most valuable customers?**
+- **What is our customer retention rate?**
+- **Which categories attract first-time buyers?**
+
+### 🏬 Operational Optimization
+- **Where should we focus inventory investments?**
+- **Which malls need performance improvement?**
+- **How can we optimize seasonal stock levels?**
+
+### 💡 Strategic Planning
+- **What loyalty programs would maximize customer lifetime value?**
+- **How can we replicate top-performing mall strategies?**
+- **Where are the biggest revenue growth opportunities?**
+
+---
+
+## 🔍 How I Approached the Project
+
+### Phase 1: Data Discovery & Cleaning
+- **Data Assessment:** Examined 99,457 rows for completeness, duplicates, and data quality
+- **Data Validation:** Verified price ranges, date formats, and category consistency
+- **Data Preparation:** Standardized mall names, ensured consistent date formats, validated customer ID uniqueness
+
+### Phase 2: SQL Analysis & Business Intelligence
+- **Exploratory Analysis:** Started with basic aggregations to understand data distribution
+- **Advanced Queries:** Implemented window functions for customer segmentation and trend analysis
+- **Business Metrics:** Calculated KPIs like customer lifetime value, retention rates, and revenue concentration
+
+### Phase 3: Insight Generation & Storytelling
+- **Pattern Identification:** Discovered seasonal trends, performance gaps, and customer behavior patterns
+- **Root Cause Analysis:** Investigated why certain malls underperform and categories have margin issues
+- **Opportunity Mapping:** Identified specific, actionable growth opportunities with quantified potential
+
+### Phase 4: Visualization & Communication
+- **Dashboard Design:** Created interactive Power BI reports for different stakeholder levels
+- **Executive Summary:** Synthesized complex findings into digestible business insights
+- **Actionable Recommendations:** Developed prioritized implementation roadmap with clear ownership
+
+### Phase 5: Documentation & Portfolio Presentation
+- **Code Organization:** Structured SQL queries from basic to advanced for easy understanding
+- **Project Documentation:** Created comprehensive README to showcase analytical approach
+- **Business Impact:** Quantified potential value and created implementation timeline
+---
 ## 💡 Key Insights & Recommendations
 
 ### 📈 Revenue Optimization
