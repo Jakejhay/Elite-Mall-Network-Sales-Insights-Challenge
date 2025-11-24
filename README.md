@@ -491,6 +491,18 @@ Q4 consistently peaks (e.g., $29,142,116.88 in 2022), confirming holiday boost�
 
 ---
 
-
+## How to Run
+1. Download `sales_data.xlsx`
+2. Import into SQLite (DB Browser for SQLite recommended)
+3. Run queries in `/sql/` folder in order
+4. Import results into Power BI for interactive dashboard
 
 ## 📁 Repository Structure
+
+Built by **Jacob Olorundare**  
+📧 okhajacob@gmail.com  
+🔗 [LinkedIn](https://linkedin.com/in/yourprofile) | [Full Portfolio](https://github.com/Jakejhay)
+
+#SQL #PowerBI #RetailAnalytics #DataAnalyst #PortfolioProject
+
+
