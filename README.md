@@ -273,7 +273,7 @@ Order by avg_revenue_per_invoice descending, limit 5.
 | Westfield Century City  | 37302787.33   | 2486.00                 |
 | The Grove               | 10000000.00   | 2079.00                 |
 
-Stanford Shopping Center had the highest average revenue per invoice at $2,496—target high-value malls like this with premium events.
+Stanford Shopping Center had the highest average revenue per invoice at $2,496, target high-value malls like this with premium events.
 ---
 ---
 ## Question 5: Which shopping mall generated the most revenue?
@@ -303,7 +303,7 @@ Order by total_revenue descending, limit to top 5.
 | Stanford Shopping Center | 25379913.19 |
 | Westfield Valley Fair  | 24618827.68   |
 
-Del Amo Fashion Center led with $50,872,481.68 in revenue—prioritize events at top malls like this, while boosting underperformers.
+Del Amo Fashion Center led with $50,872,481.68 in revenue, prioritize events at top malls like this, while boosting underperformers.
 ---
 ---
 ## Question 6: What are the monthly sales trends (total revenue per month)?
@@ -338,7 +338,7 @@ LIMIT 10;
 | 2021-09 | 8913202.33      |
 | 2021-10 | 10159800.73     |
 
-Monthly revenue averaged ~9.5M in 2021, with peaks in March/July—ramp up promotions in high months to capture 10-15% more traffic.
+Monthly revenue averaged ~9.5M in 2021, with peaks in March/July with ramp up promotions in high months to capture 10-15% more traffic.
 ---
 ---
 ## Question 7: For each mall, what are the top 3 categories by revenue?
@@ -373,7 +373,7 @@ Filter to rn <= 3, order by mall/rank, limit for sample.
 | Beverly Center      | Shoes      | 8000000.00 | 2  |
 | Beverly Center      | Technology | 6000000.00 | 3  |
 | Del Amo Fashion Center | Clothing | 15000000.00| 1  |
-At Beverly Center, Clothing topped with $12,000,000—tailor stock to local preferences like this per mall to lift overall sales by 15%.
+At Beverly Center, Clothing topped with $12,000,000 tailor stock to local preferences like this per mall to lift overall sales by 15%.
 ---
 
 ---
@@ -406,7 +406,7 @@ LIMIT 5;
 | Westfield Century City  | 15011            | 37302787.33   | 2486.00                |
 | The Grove               | 4811             | 10000000.00   | 2079.00                |
 
-Stanford Shopping Center had the highest average spend per customer at $2,496—target high-spend malls like this with premium events to maximize ROI.
+Stanford Shopping Center had the highest average spend per customer at $2,496 target high-spend malls like this with premium events to maximize ROI.
 ---
 
 ---
@@ -440,7 +440,7 @@ Group by category, order descending.
 | Food & Beverage | 2.996548        | 30000            |
 | Souvenir        | 2.974795        | 6750             |
 
-Cosmetics had the highest average basket size at 3.01 items—bundle deals could lift lower ones like Souvenir (2.97) to increase average order value.
+Cosmetics had the highest average basket size at 3.01 items, bundle deals could lift lower ones like Souvenir (2.97) to increase average order value.
 ---
 
 ---
@@ -484,7 +484,7 @@ ORDER BY year, quarter;
 | 2023 | Q3      | 2561878.28        |
 | 2023 | Q4      | 1860816.31        |
 
-Q4 consistently peaks (e.g., $29,142,116.88 in 2022), confirming holiday boost—allocate 30% more budget to Q4 inventory and promotions for 15-20% YoY growth.
+Q4 consistently peaks (e.g., $29,142,116.88 in 2022), confirming holiday boost. Allocate 30% more budget to Q4 inventory and promotions for 15-20% YoY growth.
 ## 📥 Dataset Access
 - [📄 Download `sales_data.xlsx`](#) *(link to your uploaded dataset file)*  
 - [📄 Download `sales_data.csv`](#) *(optional CSV version)*  
