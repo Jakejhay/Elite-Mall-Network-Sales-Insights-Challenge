@@ -11,55 +11,66 @@
 - [Lessons Learned](#lessons-learned)
 
 # 🏬 Elite Mall Network Sales Analysis (2021–2023)
-## 📖 Introduction
-In this case study, you are **Jordan**, a data analyst at **Elite Mall Network**, a chain of luxury shopping centers across California.
-The company has collected **transaction-level sales data** from **2021–2023**, including details on invoices, customers, product categories (such as *Clothing*, *Shoes*, and *Technology*), quantities sold, prices, and the specific mall location.
-With the **holiday seasons approaching** and **inventory budgets tight**, the CEO wants **actionable insights** from this data to:
-- Optimize stock levels
-- Launch targeted customer promotions
-- Boost foot traffic at underperforming malls
+## 📘 Overview
+
+This project analyzes **99,457 retail transactions** from **8 shopping malls** within the Elite Mall Network between **2021–2023**.  
+The goal is to uncover insights that support:
+
+- Inventory optimization  
+- Customer retention initiatives  
+- Category performance management  
+- Mall-level strategy  
+- Seasonal demand planning  
+
+The analysis includes **SQL queries**, **Power BI dashboards**, and a **business-oriented insight summary**.
 
 This case study was inspired by the classic [Danny's Diner SQL Challenge](https://8weeksqlchallenge.com/case-study-1/) by *Data With Danny*, which I adapted for this **retail and e-commerce context**.
 
 ---
 ## 🎯 Executive Summary
 
-### Key Findings
-- **Revenue Concentration:** Clothing category dominates with $114M revenue (47% of total), but shows declining profit margins in Q4 2023
-- **Customer Behavior:** Only 15% of customers are repeat buyers, representing a $20M+ growth opportunity through improved retention
-- **Mall Performance Gap:** Top 3 malls (Del Amo, South Coast, Westfield) generate 65% of total revenue, while bottom 5 struggle with 40% lower footfall
-- **Seasonal Opportunity:** Q4 revenue consistently outperforms Q1 by 45%, indicating strong holiday shopping patterns
+### ⭐ Key Findings
+- **Clothing** is the highest revenue-generating category with **$114M (47% of total revenue)**.  
+- Only **15%** of customers make repeat purchases, yet they contribute **45% of all revenue**.  
+- The **top 3 malls** (Del Amo, South Coast Plaza, Westfield Century City) generate **65% of network-wide revenue**.  
+- **Q4 sales consistently exceed Q1 by ~45%**, driven by holiday demand.  
+- **Cosmetics** has the highest basket size (3.01 items), while **Souvenir** has the lowest (2.97 items).  
+- Revenue irregularities in **2023** suggest reporting or POS system issues.
 
-### Final Recommendations
-1. **Prioritize Clothing** across all malls — it’s the revenue king and top first-purchase category.
-2. **Double marketing spend** on low-footfall malls (The Grove, Glendale, Beverly Center).
-3. **Launch Q4 campaigns early** — December spike is predictable and massive.
-4. **Bundle Cosmetics & Tech** — highest basket sizes = biggest upsell potential.
-5. **Focus events & premium inventory** on top 5 malls (68% of revenue).
-6. **Investigate 2023 data drop** — possible POS/system issue affecting reporting.
+### 📌 Strategic Recommendations
+- Increase Clothing margins using premium bundles and reduced discounting.  
+- Implement a loyalty program to convert one-time buyers into repeat customers.  
+- Support low-performing malls with event-based promotions and targeted campaigns.  
+- Boost Q4 inventory levels by **~30%**, especially for high-velocity categories.  
+- Investigate the **2023 data gap** to restore reporting accuracy.
 
 ---
 ## 🛠️ Tools Used
-- **SQL** – for complex querying and customer segmentation analysis
-- **Power BI** – for interactive dashboard and visualization
-- **Excel** – for data validation and initial exploration
-- **GitHub** – for version control and project documentation
+- **SQL:** Data extraction & analysis  
+- **Power BI:** Dashboards and data visualization  
+- **Excel:** Initial Exploration and profiling  
+- **GitHub:** Version control and documentation 
 
 ---
-## 📊 Dataset Overview
-The dataset includes **99,457 transactions** across 8 California malls from 2021-2023 with the following key fields:
-- `invoice_id` - Unique transaction identifier
-- `customer_id` - Anonymous customer identifier  
-- `mall_location` - Specific mall where purchase occurred
-- `product_category` - 8 categories (Clothing, Shoes, Technology, etc.)
-- `quantity` - Number of items purchased
-- `price` - Unit price per item
-- `order_date` - Date of transaction
+## 📊 Dataset Structure
 
-### Data Quality Notes
-- No missing values in critical fields (invoice_id, customer_id, price)
-- All transactions within expected date range (2021-01-01 to 2023-12-31)
-- Price distribution validated against industry benchmarks
+The dataset contains **99,457 transactions** with the following fields:
+
+| Column Name        | Description |
+|-------------------|-------------|
+| `invoice_id`       | Unique transaction ID |
+| `customer_id`      | Anonymized customer identifier |
+| `shopping_mall`    | Mall where the purchase occurred |
+| `product_category` | Category of product purchased |
+| `quantity`         | Quantity purchased |
+| `price`            | Unit price |
+| `invoice_date`     | Date of purchase |
+
+### ✔ Data Quality Notes
+- No missing values in financial fields  
+- Valid date range (2021–2023)  
+- No duplicate `invoice_id` entries  
+- Clean price and quantity distributions  
 
 ---
 ## 🎯 Business Questions Solved
@@ -541,6 +552,50 @@ Q4 consistently peaks (e.g., $29,142,116.88 in 2022), confirming holiday boost. 
 ## 📥 Dataset Access
 - [📄 Download `sales_data.xlsx`](#) *(link to your uploaded dataset file)*  
 - [📄 Download `sales_data.csv`](#) *(optional CSV version)*  
+
+---
+## 📈 Business Impact
+
+This analysis highlights clear opportunities to increase revenue, improve retention, and optimize mall performance across the Elite Mall Network.
+
+### 🚀 1. Strengthen High-Performing Categories
+Clothing and Cosmetics drive most network revenue. Improving margins, bundling products, and optimizing stock levels could raise total revenue by **10–15%**.
+
+### 👥 2. Improve Customer Retention
+Only **15%** of customers return, yet they generate **45%** of revenue.  
+Introducing loyalty rewards, personalized offers, and targeted email campaigns could lift retention to **25%**, adding **$8–12M annually**.
+
+### 🏬 3. Reduce Mall Performance Gaps
+Top malls outperform weaker malls by **3x**.  
+Supporting low-performing locations with promotions, events, and category-focused marketing can raise mall-wide performance by **8–10%**.
+
+### 🎄 4. Prepare for Seasonal Demand
+Q4 revenue consistently rises **~45%** above Q1.  
+Earlier stocking, holiday bundles, and mall-wide promotions can prevent stock-outs and maximize holiday conversions.
+
+### 🛒 5. Increase Basket Size with Bundling
+Basket size varies by category. Souvenir and Toys underperform slightly.  
+Introducing combo deals and small-item bundles can increase basket size by **0.2–0.3 items**, adding **$2–4M** per year.
+
+---
+
+## 📚 Lessons Learned
+
+### 🧠 Data Quality Matters
+Inconsistencies in 2023 reporting highlighted the need for clean, validated pipelines. A standardized process ensures accurate year-over-year analysis.
+
+### 🧮 SQL as a Strong Analytical Tool
+Simple SQL functions—aggregations, window functions, and date transformations—were enough to uncover deep and actionable business insights.
+
+### 📊 Visuals Improve Decision-Making
+Power BI dashboards helped reveal trends and made the analysis easy for non-technical stakeholders to understand.
+
+### 🧩 Context Is Critical
+High revenue doesn’t always mean high profitability; footfall doesn’t equal conversion.  
+Numbers must always be paired with business context for meaningful interpretation.
+
+### 📝 Documentation Improves Clarity
+A well-structured README makes the project easier to understand, review, and replicate. Clear documentation is essential for professional analytics work.
 
 ---
 
