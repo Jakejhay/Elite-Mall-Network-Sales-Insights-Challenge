@@ -207,7 +207,7 @@ Implement targeted strategies to boost customer traffic at underperforming malls
 ---
 --- 
 
-**Question 3: What is the most common first purchase category across all customers?**
+## Question 3: What is the most common first purchase category across all customers?
 
 ```sql
 WITH first_purchases AS (
@@ -245,7 +245,7 @@ Order descending, limit to top 5.
 Clothing was the most common first purchase category (34,487 customers), indicating strong entry appeal—promote clothing bundles for new shoppers.
 ---
 ---
-**Question 4: What is the average revenue per mall?**
+## Question 4: What is the average revenue per mall?
 
 ```sql
 SELECT 
@@ -276,7 +276,7 @@ Order by avg_revenue_per_invoice descending, limit 5.
 Stanford Shopping Center had the highest average revenue per invoice at $2,496—target high-value malls like this with premium events.
 ---
 ---
-**Question 5: Which shopping mall generated the most revenue?**
+## Question 5: Which shopping mall generated the most revenue?
 
 ```sql
 SELECT 
@@ -306,7 +306,7 @@ Order by total_revenue descending, limit to top 5.
 Del Amo Fashion Center led with $50,872,481.68 in revenue—prioritize events at top malls like this, while boosting underperformers.
 ---
 ---
-**Question 6: What are the monthly sales trends (total revenue per month)?**
+## Question 6: What are the monthly sales trends (total revenue per month)?
 
 ```sql
 SELECT 
@@ -341,7 +341,7 @@ LIMIT 10;
 Monthly revenue averaged ~9.5M in 2021, with peaks in March/July—ramp up promotions in high months to capture 10-15% more traffic.
 ---
 ---
-**Question 7: For each mall, what are the top 3 categories by revenue?**
+## Question 7: For each mall, what are the top 3 categories by revenue?
 
 ```sql
 WITH ranked_categories AS (
@@ -377,7 +377,7 @@ At Beverly Center, Clothing topped with $12,000,000—tailor stock to local pref
 ---
 
 ---
-**Question 8: Which malls have the highest average customer spend (total spend per unique customer)?**
+## Question 8: Which malls have the highest average customer spend (total spend per unique customer)?
 
 ```sql
 SELECT 
@@ -410,7 +410,7 @@ Stanford Shopping Center had the highest average spend per customer at $2,496—
 ---
 
 ---
-**Question 9: What is the average basket size (quantity) per category?**
+## Question 9: What is the average basket size (quantity) per category?
 
 ```sql
 SELECT 
@@ -444,7 +444,7 @@ Cosmetics had the highest average basket size at 3.01 items—bundle deals could
 ---
 
 ---
-**Question 10: What are the quarterly revenue trends (by year and quarter)?**
+## Question 10: What are the quarterly revenue trends (by year and quarter)?**
 
 ```sql
 SELECT 
